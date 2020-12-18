@@ -1,0 +1,133 @@
+body {
+    background-color: #fff;
+}
+
+ul,
+li {
+    list-style: none;
+    /* background-color: orchid; */
+}
+
+ul {
+    overflow: hidden;
+}
+
+.list-item {
+    width: 260px;
+    border: 1px solid #ccc;
+    float: left;
+    border: none;
+    margin: 0 12px 0 12px;
+}
+
+.list-item .row {
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.list-item .row:hover {
+    background-color: pink;
+}
+
+.thumbnail {
+    margin: 10px 10px 30px 10px;
+    border: none;
+}
+
+.thumbnail p {
+    margin: 0;
+}
+
+.list-item .title {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.list-item .title .breadcrumb {
+    height: 36px;
+    overflow: hidden;
+}
+
+.list-item .row h3 {
+    text-overflow: ellipsis;
+    /*有些示例里需要定义该属性，实际可省略*/
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /*规定超过两行的部分截断*/
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-all;
+    font-size: 16px;
+    margin-top: 0;
+    /*在任何地方换行*/
+}
+
+.list-item .row .price {
+    font-size: 30px;
+    color: red
+}
+
+.page {
+    height: 40px;
+    border: 1px solid skyblue;
+    width: 60%;
+    margin: auto;
+    cursor: pointer;
+    border: none;
+}
+
+.first,
+.next,
+.last,
+.prev {
+    cursor: pointer;
+}
+
+.page p {
+    cursor: pointer;
+}
+
+#checkjq {
+    width: 1300px;
+    height: 80px;
+    margin: 10px auto 0;
+    /* background-color: cadetblue; */
+}
+
+.jqbox {
+    width: 296px;
+    margin: 0 auto;
+    height: 36px;
+    /* background-color: cornflowerblue; */
+}
+
+.jqbox input {
+    margin-left: 24px;
+    border-radius: 4px;
+    font-size: 8px;
+    height: 28px;
+    width: 80px;
+    display: inline-block;
+}
+
+.jqbox input:nth-of-type(1) {
+    margin-left: 0;
+}
+
+.jqitem {
+    width: 227px;
+    height: 26px;
+    /* background-color: crimson; */
+    margin: 4px auto 0;
+}
+
+.jqitem input {
+    border-radius: 4px;
+}
+
+.jqitem button {
+    border-radius: 4px;
+    outline: none;
+}

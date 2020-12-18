@@ -1,0 +1,87 @@
+#bobo {
+    width: 1380px;
+    margin: 0 auto;
+}
+
+.containers {
+    width: 800px;
+    height: 400px;
+    border: 1px solid #ccc;
+    margin: 15px 15px;
+}
+
+.m4 {
+    width: 400px;
+    height: 400px;
+    margin-left: 360px;
+}
+
+.price {
+    font-size: 50px;
+    color: red;
+    margin: 10px 0px;
+}
+
+.btn-group {
+    margin-bottom: 20px;
+}
+
+.containers .show {
+    width: 300px;
+    height: 300px;
+    float: left;
+    position: relative;
+}
+
+.containers .show img {
+    width: 300px;
+    height: 300px;
+}
+
+.containers .show .mask {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    opacity: .4;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+.containers .show .big {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    right: -300px;
+    top: -10px;
+    z-index: 66;
+    display: none;
+    overflow: hidden;
+    /* border: 1px solid #684029; */
+}
+
+.containers .show .big img {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#goCar {
+    background-color: pink;
+    width: 82px;
+    height: 40px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+#addCar {
+    background-color: lightskyblue;
+    width: 86px;
+    height: 40px;
+    font-size: 12px;
+    display: inline-block;
+    border-color: indianred;
+}

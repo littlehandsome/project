@@ -1,0 +1,27 @@
+@charset "utf-8";
+.form-horizontal {
+    width: 581px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #000;
+}
+
+.form-horizontal label {
+    width: 112px;
+}
+
+.form-horizontal>.form-group>div {
+    width: 300px;
+}
+
+.jump {
+    color: #337ab7;
+    margin-left: 20px;
+}
+
+.jump:hover {
+    color: #337ab7;
+}
